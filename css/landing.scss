@@ -1,0 +1,62 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+body {
+  background: #aaa no-repeat 0 0;
+}
+
+div.container {
+  width: 1260px;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+div.sidebar {
+  width: 350px;
+  padding: 25px;
+  float: left;
+}
+
+div.content {
+  width: 900px;
+  float: left;
+}
+
+div.sidebar {
+
+  .section {
+    padding-bottom: 5px;
+  }
+
+  .photo > img {
+    border: 1px solid #999;
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+
+  .names {
+    padding: 0 10px;
+
+    .name {
+      font-size: 30px;
+      letter-spacing: -1px;
+      color: #495961;
+    }
+
+    .nick {
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 24px;
+      color: #666;
+      vertical-align: top;
+      letter-spacing: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+
+}
