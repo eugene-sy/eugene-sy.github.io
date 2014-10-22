@@ -4,7 +4,7 @@
 ---
 
 body {
-  background: #aaa no-repeat 0 0;
+  background: #999 no-repeat 0 0;
 }
 
 div.container {
@@ -59,4 +59,34 @@ div.sidebar {
     }
   }
 
+}
+
+div.sidebar .section.links {
+  padding: 3px;
+  width: 100%;
+
+  div.link {
+    width: 64px;
+    height: 64px;
+    margin: 5px;
+    float: left;
+    box-shadow: 0 0 5px #666;
+    border-radius: 10px;
+
+    &.github:hover {
+      box-shadow: 0 0 7px #111;
+    }
+
+    &.twitter:hover {
+      box-shadow: 0 0 7px rgb(117, 170, 235);
+    }
+
+    &.gplus:hover {
+      box-shadow: 0 0 7px rgb(185, 67, 50);
+    }
+
+    &.linkedin:hover {
+      box-shadow: 0 0 7px rgb(87, 134, 187);
+    }
+  }
 }
