@@ -1,11 +1,12 @@
 # Site settings
-title: Your awesome title
+title: axblade.github.io
 email: eugene.sypachev@gmail.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Axblades (Eugene Sypachev) Github page and blog."
 baseurl: ""
 url: "axblade.github.io"
+username: "Eugene Sypachev"
 twitter_username: axblade
-github_username:  axblade
+github_username: Axblade
 
 # Build settings
 markdown: kramdown
