@@ -3,90 +3,82 @@
 # only Main files contain this front matter, not partials.
 ---
 
+@import '_variables';
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
-  background: #999 no-repeat 0 0;
+  background: $light-brown no-repeat 0 0;
+  margin-bottom: $footer-height;
+  padding-top: $header-height;
 }
 
-div.container {
-  width: 1260px;
-  padding: 5px;
-  margin: 0 auto;
-}
-
-div.sidebar {
-  width: 350px;
-  padding: 25px;
-  float: left;
-}
-
-div.content {
-  width: 900px;
-  float: left;
-}
-
-div.sidebar {
-
-  .section {
-    padding-bottom: 5px;
-  }
-
-  .photo > img {
-    border: 1px solid #999;
-    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    -o-box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  }
-
-  .names {
-    padding: 0 10px;
-
-    .name {
-      font-size: 30px;
-      letter-spacing: -1px;
-      color: #495961;
-    }
-
-    .nick {
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 300;
-      line-height: 32px;
-      color: #555;
-      vertical-align: top;
-      letter-spacing: 0;
-      -webkit-font-smoothing: antialiased;
-    }
-  }
-
-}
-
-div.sidebar .section.links {
-  padding: 3px;
-  width: 100%;
-
-  div.link {
-    width: 64px;
-    height: 64px;
-    margin: 5px;
-    float: left;
-    box-shadow: 0 0 5px #666;
-    border-radius: 10px;
-
-    &.github:hover {
-      box-shadow: 0 0 7px #111;
-    }
-
-    &.twitter:hover {
-      box-shadow: 0 0 7px rgb(117, 170, 235);
-    }
-
-    &.gplus:hover {
-      box-shadow: 0 0 7px rgb(185, 67, 50);
-    }
-
-    &.linkedin:hover {
-      box-shadow: 0 0 7px rgb(87, 134, 187);
-    }
-  }
-}
+// div.sidebar {
+//
+//   .section {
+//     padding-bottom: 5px;
+//   }
+//
+//   .photo > img {
+//     border: 1px solid #999;
+//     -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+//     -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+//     -o-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+//     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+//   }
+//
+//   .names {
+//     padding: 0 10px;
+//
+//     .name {
+//       font-size: 30px;
+//       letter-spacing: -1px;
+//       color: #495961;
+//     }
+//
+//     .nick {
+//       font-size: 24px;
+//       font-style: normal;
+//       font-weight: 300;
+//       line-height: 32px;
+//       color: #555;
+//       vertical-align: top;
+//       letter-spacing: 0;
+//       -webkit-font-smoothing: antialiased;
+//     }
+//   }
+//
+// }
+//
+// div.sidebar .section.links {
+//   padding: 3px;
+//   width: 100%;
+//
+//   div.link {
+//     width: 64px;
+//     height: 64px;
+//     margin: 5px;
+//     float: left;
+//     box-shadow: 0 0 5px #666;
+//     border-radius: 10px;
+//
+//     &.github:hover {
+//       box-shadow: 0 0 7px #111;
+//     }
+//
+//     &.twitter:hover {
+//       box-shadow: 0 0 7px rgb(117, 170, 235);
+//     }
+//
+//     &.gplus:hover {
+//       box-shadow: 0 0 7px rgb(185, 67, 50);
+//     }
+//
+//     &.linkedin:hover {
+//       box-shadow: 0 0 7px rgb(87, 134, 187);
+//     }
+//   }
+// }
