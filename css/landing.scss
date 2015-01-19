@@ -16,6 +16,13 @@ body {
   padding-top: $header-height;
 }
 
+// Bootstrap rewrites
+.navbar-default {
+  background-color: $light-blue;
+  border-color: $dark-blue;
+  background-image: linear-gradient(to bottom, $light-blue 0, darken($light-blue, 5%) 100%);
+}
+
 // div.sidebar {
 //
 //   .section {
