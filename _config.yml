@@ -11,3 +11,43 @@ github_username: Axblade
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+
+title: "username-blog"
+
+
+paginate: 5 #articles per page
+paginate_path: /blog/page:num #makes pagination working
+
+
+#contacts
+git: "https://github.com/Axblade" 
+stackoverflow: "http://stackoverflow.com/users/3205447/axblade"
+twitter: "https://twitter.com/axblade"
+
+
+gems:
+  - jekyll-sitemap
+
+# This is used by feed.xml. Uncomment if you want to use it.
+# description: "..."
+
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+permalink: :title
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
