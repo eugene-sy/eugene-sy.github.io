@@ -13,15 +13,12 @@ markdown: kramdown
 permalink: pretty
 
 
-title: "username-blog"
-
-
 paginate: 5 #articles per page
 paginate_path: /blog/page:num #makes pagination working
 
 
 #contacts
-git: "https://github.com/Axblade" 
+git: "https://github.com/Axblade"
 stackoverflow: "http://stackoverflow.com/users/3205447/axblade"
 twitter: "https://twitter.com/axblade"
 
