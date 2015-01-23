@@ -276,19 +276,23 @@ section #title p {
 }
 
 section #title .credits {
-  font-size: 13px;
+  text-align: center;
+  font-size: 16px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  color: #696969;
-  margin-top: -27px;
+  color: #A3BFC6;
+  margin-top: 20px;
 }
 
-section #title .credits.left {
-  float: left;
+section #title .credits a {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #A3BFC6;
+  text-decoration: underline;
 }
 
-section #title .credits.right {
-  float: right;
+section #title .credits a:hover, section #title .credits a:active, section #title .credits a:focus {
+  color: #49B1F7;
 }
 
 .section-header-archive, .tag_name{
