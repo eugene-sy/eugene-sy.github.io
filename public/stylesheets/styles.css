@@ -311,7 +311,7 @@ footer .right{
   margin-bottom: 15px;
 }
 
-.resume p{
+.resume p, .projects p {
   mfont-size: 15px;
   line-height: 24px;
   margin: 0 0 10px;
@@ -349,6 +349,6 @@ footer .right{
   margin-bottom: 15px;
 }
 
-#title #sitename,.resume span,.resume h2 {
+#title #sitename, .resume span, .resume h2, .projects span, .projects h3 {
   color: #EC4E3B;
 }
