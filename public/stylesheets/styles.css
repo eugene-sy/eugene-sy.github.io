@@ -299,12 +299,26 @@ section #title .credits a:hover, section #title .credits a:active, section #titl
 	margin:  15px 0 0 0;
 }
 
+footer {
+  margin-top: 20px;
+  border-top: 1px solid #A3BFC6;
+}
+
 footer .left{
   float: left;
 }
 
 footer .right{
   float: right;
+}
+
+footer .right a {
+  color:#49B1F7;
+  margin: 5px;
+}
+
+footer .right a:hover, footer .right a:active {
+  color:#EC4E3B;
 }
 
 .paginate{
