@@ -21,6 +21,7 @@ paginate_path: /blog/page:num #makes pagination working
 git: "https://github.com/Axblade"
 stackoverflow: "http://stackoverflow.com/users/3205447/axblade"
 twitter: "https://twitter.com/axblade"
+linkedin: "https://www.linkedin.com/pub/eugene-sypachev/50/780/ab2"
 
 
 gems:

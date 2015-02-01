@@ -1,15 +1,36 @@
 <footer>
   <hr/>
   <div class="left">
-    &copy;{{ site.time | date:"%Y" }}.
-    Built with <a href="http://jekyllrb.com/">Jekyll</a> and
-    <a href="https://github.com/railsr/autm-rb">Autm-rb</a>
+    <p class="text-muted">
+      <a id="footer-sitename" href="/">axblade.github.io</a>
+    </p>
+    <p class="text-muted">
+      &copy;{{ site.time | date:"%Y" }}.
+      Built on top of <a href="http://jekyllrb.com/">Jekyll</a> and
+      <a href="https://github.com/railsr/autm-rb">Autm-rb</a>
+    </p>
   </div>
 
   <div class="right">
     {% unless site.twitter == "" %}
-    <a href="{{site.twitter}}"><i class="fa fa-twitter fa-lg" style="color:#49B1F7;"></i></a>
-  </a>
-  {% endunless %}
+    <a href="{{site.twitter}}">
+      <i class="fa fa-twitter fa-lg"></i></a>
+    </a>
+    {% endunless %}
+    {% unless site.git == "" %}
+    <a href="{{site.git}}">
+      <i class="fa fa-github fa-lg"></i></a>
+    </a>
+    {% endunless %}
+    {% unless site.stackoverflow == "" %}
+    <a href="{{site.stackoverflow}}">
+      <i class="fa fa-stack-overflow fa-lg"></i></a>
+    </a>
+    {% endunless %}
+    {% unless site.linkedin == "" %}
+    <a href="{{site.linkedin}}">
+      <i class="fa fa-linkedin-square fa-lg"></i></a>
+    </a>
+    {% endunless %}
 </div>
 </footer>
