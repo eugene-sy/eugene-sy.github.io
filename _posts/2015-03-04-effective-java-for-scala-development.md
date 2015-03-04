@@ -36,6 +36,13 @@ The 3rd and 4th chapter gives you information on how _case_ classes are implemen
 
 ## Chapters to avoid
 
+I think, you should avoid chapter 9 "Exceptions" and chapter 10 "Concurrency".
+
+The way Scala uses Exceptions in its core and the way we use it in application code is quite different to Java. As more algebraic (as its functional nature) language, Scala provides tools for writing code without side effects and ignoring type safety, so you should use native tools and concepts instead of common-to-Java ones.
+
+On "Concurrency" chapter my argument is the same. _Akka_ is default model for implementing concurrency and parallelism in Scala.
+It is build on Erlang concurrency/parallelism model, so we should use Erlang guidelines to implement multithreaded programs in Scala.
+
 ## Links and other sources
 
 [1<a name="1"></a>] "Effective Java (2nd Edition)" by Joshua Bloch, ISBN-13: 860-1300201986, ISBN-10: 0321356683, [amazon](http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683)
