@@ -12,7 +12,29 @@ But now, my curiosity has got the better and I took the _"Effective Java (2nd Ed
 
 Lets discuss this book from position of Scala developer.
 
+## Overview
 
+Book is written in 2008 and for Java 1.6 so some concepts can be outdated and we have several improvements in Java and JVM in 1.7 and 1.8. But, talking about concepts described in the book, understanding of them will help you to write more readable and robust code and understand design of several features in Scala.
+
+Not all concepts described can be applied strictly to Scala development (for example we have _values_ in Scala to get rid of _something final_ fields). The other part of solutions are applied in Scala by language design (for example nice _toString_ method implementation for _case_ classes). The third part cannot and should not be implemented in Scala programs (_Builder pattern_, for example, we have other solution like parameters with _default values_).
+
+Anyway, after reading _"Effective Java (2nd Edition)"_ you will understand and appreciate Scala design even more and you'll get the some of core Scala developer ideas.
+
+## Interesting chapters
+
+As for me, the most interesting chapters are:
+
+* chapter 3: Methods Common to All Objects
+* chapter 4: Classes and Interfaces
+* chapter 5: Generics
+
+The 3rd and 4th chapter gives you information on how _case_ classes are implemented and what boilerplate code you get by no cost. Also, you get arguments for using _companion object_ with _apply_ method (that could be overloaded for your needs) with private constructor.
+
+4th chapter answers the question about why you should use _values_ instead of _variables_ as much as possible, too, and gives guides when and how to use _traits_ and _abstract classes_ in your code.
+
+5th chapter describes the way you should use generalized classes, methods, and collections instead of plain ones. This concept should be the same for Java and Scala development.
+
+## Chapters to avoid
 
 ## Links and other sources
 
