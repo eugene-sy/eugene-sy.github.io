@@ -43,6 +43,12 @@ The way Scala uses Exceptions in its core and the way we use it in application c
 On "Concurrency" chapter my argument is the same. _Akka_ is default model for implementing concurrency and parallelism in Scala.
 It is build on Erlang concurrency/parallelism model, so we should use Erlang guidelines to implement multithreaded programs in Scala.
 
+## Conclusion
+
+_"Effective Java (2nd Edition)"_ by Joshua Bloch [\[1\]](#1) is a good book if you want to improve your coding style and understand the concepts of JVM programming more deeply.
+But, if you are not a full-time Java programmer, and use Scala most of time you should read this type of literature very carefully, reflecting solutions described on guidelines of Scala.
+If you are using something like Scheme or Clojure, this reading will be useless for you (as your language has nothing with Object Oriented Design and other OO concepts :)). 
+
 ## Links and other sources
 
 [1<a name="1"></a>] "Effective Java (2nd Edition)" by Joshua Bloch, ISBN-13: 860-1300201986, ISBN-10: 0321356683, [amazon](http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683)
