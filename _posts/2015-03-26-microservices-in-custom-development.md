@@ -39,6 +39,10 @@ Also, you can meet a reason like 'I don't understand the profit of it'. We met t
 
 ## Customer
 
+Again, we are talking about enterprise customer. I believe that there are some Oracle databases, application server clusters and even more complex systems already installed.
+Your customer payed lots of money for it. Your customer continues to pay for support. And why he have to adopt something new for your comfort? Most of the time, reasons like speed, scalability and reliability are not as good as you think. Large enterprise can pay for a time while their employees are waiting for response of some sort of applications and people.
+
+Also, I believe that managers in enterprises are the same manager in consulting companies, and IBM, Oracle and other corporations are their gods.
 
 ## Conclusion
 
