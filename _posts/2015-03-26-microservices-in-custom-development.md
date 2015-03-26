@@ -47,7 +47,7 @@ Also, I believe that managers in enterprises are the same manager in consulting 
 ## Conclusion
 
 I believe that microservices is a good way to build your applications, it allows to build more scalable and robust applications with smaller teams and less pain.
-But, it is sad to say, consulting and custom development is not ready for it for reasons of momentum in thinking and large investments in monolithic architecture.
+But, it is sad to say, consulting and custom development are not ready for it for reasons of momentum in thinking and large investments in monolithic architecture.
 
 P.S. I have no purpose to insult anyone in this article, just to outline my thoughts.
 
