@@ -29,7 +29,16 @@ Microservices requires something lightweight (in Java world it would be Jetty or
 
 ## Managers
 
+Lots of enterprise manager (that I have seen) believe, that the best software tools for enterprise are produced by large corporations like IBM, Oracle and so on.
+Free and opensource software is a core of evil for them. They believe that only systems with price over several thousands of dollars are scalable and maintainable.
+You have no chance to bring them over.
+
+Another reason, why you cannot use microservices is that you will have to spend more time on development and analysis. There is a chance that this approach could bring you less headache in testing and production is not a reason. 'Developer time cost money', - it is reason of manager. The time in testing, debugging and maintenance don't count.
+
+Also, you can meet a reason like 'I don't understand the profit of it'. We met this one while changing Java to Scala, I think we did not convince out manager that Scala is better for our company, but we still use it.
+
 ## Customer
+
 
 ## Conclusion
 
