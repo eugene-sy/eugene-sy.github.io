@@ -20,3 +20,11 @@ Both parts are about 4 hours long. It takes some time to get used to this rithm,
 I have never been confident in my level of English. I always tried to duck out of conversations with foreign people if I could. It's something in the level of subconscious, when you get older you start to fear to use other languages.
 
 I cannot say that now I made away with that fear. I just try to stop thinking about possible mistakes and misunderstanding. I'm just speaking and writing, asking nearby people to correct me if I'm wrong.
+
+## Challenge #3: Work time
+
+At the beginning I started to work without any timeboxes, just getting work done. I got up, had breakfast and started to work until I fell asleep. If you start behaving like this, you'll get burned out really quick. I started felling myself tired in about a week. 
+
+It really requires staying power not to work all the time. I allways remind myself to complete not only job tasks but also side projects and housework. Also I feel myself better when spending time walking and doing workouts. 
+
+Remote work with flexible work hours teaches to manage your time and really frees some time for you to do something you like.
