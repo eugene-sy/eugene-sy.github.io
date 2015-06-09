@@ -34,3 +34,9 @@ Remote work with flexible work hours teaches to manage your time and really free
 It really takes a lot of time to build your workplace. In office you get your table and PC for free and you cannot change almost anything. I work from home now and have ability to do alomost anything I need to make my workplace comfortable. There are lots of articles in the Internet where questions of ergonomics, comfort and health are discussed. I just admit that it's not so simple topic.
 
 The same is about your tools: you can and must use as much tools as you need to achieve productivity. No one can force you to use Eclipse instead of IDEA, for example. Invest in your tools and be prepared to change and improve them.
+
+## Conclusion
+
+I really love the idea of remote work. I sought it for a while and it was knowingly. Yes, it is quite difficult and challenging at the beginning, but there are many advantages.
+
+As a next step I plan to upgrade my equipment and start travelling, the life of technical nomad looks very attractive now!
