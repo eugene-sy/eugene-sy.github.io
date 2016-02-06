@@ -26,6 +26,7 @@ linkedin: "https://www.linkedin.com/pub/eugene-sypachev/50/780/ab2"
 
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
 
 # This is used by feed.xml. Uncomment if you want to use it.
 # description: "..."
