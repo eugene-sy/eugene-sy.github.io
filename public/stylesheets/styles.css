@@ -82,7 +82,7 @@ a#so-ic{
 }
 
 strong {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: normal;
 }
 
@@ -147,7 +147,7 @@ th {
   padding: 5px 10px;
   border-bottom: 1px solid #434343;
   color: #b6b6b6;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: normal;
 }
 
@@ -166,7 +166,7 @@ hr {
 
 dt {
   color: #F0E7D5;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: normal;
 }
 
@@ -197,7 +197,7 @@ section #title h1 {
 
 section #title p {
   color: #A3BFC6;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: normal;
   font-size: 18px;
   text-align: center;
@@ -206,7 +206,7 @@ section #title p {
 section #title .credits {
   text-align: center;
   font-size: 16px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: normal;
   color: #A3BFC6;
   margin-top: 20px;
