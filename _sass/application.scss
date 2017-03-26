@@ -1,0 +1,102 @@
+@import "variables";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: $background-highlight;
+}
+
+.content-wrap {
+    min-height: 100%;
+    background: $background;
+}
+
+.wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header-link {
+    color: $text-header;
+    text-decoration: none;
+
+    &:hover {
+	color: $text-highlight;
+    }
+}
+
+.navigation {
+    margin: 20px 0;
+    text-align: right;
+    color: $text-header;
+
+    a {
+	@extend .header-link;
+    }
+}
+
+.header {
+    overflow: auto;
+    background: linear-gradient($overlay, $overlay), url('/images/static/coding-title.jpeg');
+    background-size: cover;
+    background-position: center;
+
+    .social-links {
+	font-size: 1.2rem;
+	text-align: center;
+	margin-bottom: 50px;
+
+	a {
+	    @extend .header-link;
+	}
+    }
+}
+
+.title {
+    margin: 50px 0;
+    text-align: center;
+    color: $text-header;
+}
+
+.title-header {
+    font-size: 2rem;
+    test-decoration: none;
+}
+
+.description {
+    margin: 25px 0;
+    text-align: center;
+    font-size: 1.2rem;
+    color: $text-header;
+}
+
+.social-links {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 50px;
+    color: $text-header;
+}
+
+.footer {
+    overflow: auto;
+    heigth: 200px;
+    text-align: center;
+    background: $background-highlight;
+
+    a {
+	@extend .footer-link;
+    }
+}
+
+.footer-link {
+    color: $text-alt;
+    text-decoration: none;
+
+    &:hover {
+	color: $text-highlight;
+    }
+}
+
+.site-info {
+    margin: 50px;
+    color: $text-alt;
+}
