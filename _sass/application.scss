@@ -6,6 +6,10 @@ body {
     color: $text-main;
 }
 
+.container {
+    overflow: auto;
+}
+
 .content-wrap {
     min-height: 100%;
     background: $background;
@@ -116,10 +120,19 @@ body {
     text-decoration: none;
 }
 
-.post-date {
+.post-meta {
+    display: flex;
     font-size: 0.8rem;
     line-height: 2;
     color: $text-alt;
+}
+
+.post-date {
+    width: 100px;
+}
+
+.post-tags {
+    margin-left: 20px;
 }
 
 .read-more {
@@ -151,5 +164,14 @@ body {
 	background: $text-main;
 	border-color: $text-main;
 	color: $text-header;
+    }
+}
+
+.link-alt {
+    color: $text-alt;
+    text-decoration: none;
+
+    &:hover, &:active {
+	color: $text-main;
     }
 }

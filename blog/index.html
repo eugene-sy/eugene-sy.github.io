@@ -10,11 +10,7 @@ layout: default
 	  <div>
 	    <h2 class="post-link">{{ post.title }}</h2>
 	  </div>
-	  <div>
-	    <span class="post-date">
-	      <span class="fa fa-clock-o"></span>&nbsp;{{ post.date | date: "%b %-d, %Y" }}
-	    </span>
-	  </div>
+	  {% include post-meta.html %}
 	  <div class="preface">
 	    {% if post.preface %}
 	      {{ post.preface }}
