@@ -3,6 +3,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background: $background-highlight;
+    color: $text-main;
 }
 
 .content-wrap {
@@ -99,4 +100,56 @@ body {
 .site-info {
     margin: 50px;
     color: $text-alt;
+}
+
+.posts {
+    margin: 50px 0;
+}
+
+.post {
+    margin: 30px 0;
+}
+
+.post-link {
+    font-size: 1.5rem;
+    color: $text-main;
+    text-decoration: none;
+}
+
+.post-date {
+    font-size: 0.8rem;
+    line-height: 2;
+    color: $text-alt;
+}
+
+.read-more {
+    margin: 20px 0;
+}
+
+.preface {
+    margin-top: 10px;
+}
+
+.no-preface {
+    color: $text-alt;
+}
+
+.link-button {
+    display: block;
+    width: 150px;
+    border: 1px solid $text-main;
+    background: $background;
+    color: $text-main;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+    .link-button-content {
+	margin: 10px 15px;
+    }
+
+    &:hover, &:active {
+	background: $text-main;
+	border-color: $text-main;
+	color: $text-header;
+    }
 }

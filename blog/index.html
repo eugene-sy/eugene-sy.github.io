@@ -2,19 +2,33 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="container">
+  <div class="wrap">
+    <ul class="posts">
+      {% for post in site.posts %}
+	<li class="post">
+	  <div>
+	    <h2 class="post-link">{{ post.title }}</h2>
+	  </div>
+	  <div>
+	    <span class="post-date">
+	      <span class="fa fa-clock-o"></span>&nbsp;{{ post.date | date: "%b %-d, %Y" }}
+	    </span>
+	  </div>
+	  <div class="preface">
+	    {% if post.preface %}
+	      {{ post.preface }}
+	    {% else %}
+	      <span class="no-preface">No preface for this post.</span>
+	    {% endif %}
+	  </div>
+	  <div class="read-more">
+	    <a class="link-button" href="{{ post.url | prepend: site.baseurl }}">
+	      <div class="link-button-content">Read more...</div>
+	    </a>
+	  </div>
+	</li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
