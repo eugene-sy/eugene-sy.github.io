@@ -24,8 +24,8 @@ body {
     color: $text-header;
     text-decoration: none;
 
-    &:hover {
-	color: $text-highlight;
+    &:hover, &:active {
+	text-decoration: underline;
     }
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 .title {
-    margin: 50px 0;
+    margin: 50px 0 25px;
     text-align: center;
     color: $text-header;
 }
@@ -68,7 +68,7 @@ body {
 }
 
 .description {
-    margin: 25px 0;
+    margin: 25px 0 50px;
     text-align: center;
     font-size: 1.2rem;
     color: $text-header;
@@ -77,8 +77,12 @@ body {
 .social-links {
     font-size: 1.2rem;
     text-align: center;
-    margin-bottom: 50px;
+    margin: 0 25px 50px;
     color: $text-header;
+
+    a {
+	margin: 0 10px;
+    }
 }
 
 .footer {
@@ -122,6 +126,7 @@ body {
 
 .post-meta {
     display: flex;
+    margin-top: 5px;
     font-size: 0.8rem;
     line-height: 2;
     color: $text-alt;
@@ -145,6 +150,37 @@ body {
 
 .no-preface {
     color: $text-alt;
+}
+
+.post-content {
+    margin: 20px 0;
+
+    h1 {
+	margin: 40px 0;
+	font-size: 1.5rem;
+	font-weight: 600;
+    }
+
+    h2 {
+	margin: 25px 0;
+	font-size: 1.3rem;
+	font-weight: 600;
+    }
+
+    p {
+	margin: 10px 0;
+	line-height: 1.25;
+    }
+
+    a {
+	color: $text-main;
+	font-style: italic;
+	text-decoration: none;
+
+	&:hover, &:active {
+	    text-decoration: underline;
+	}
+    }
 }
 
 .link-button {
