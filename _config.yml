@@ -6,7 +6,7 @@ sass:
 # Site settings
 title: axblade.github.io
 email: eugene.sypachev@gmail.com
-description: "Axblades (Eugene Sypachev) Github page and blog."
+description: "Eugene Sypachev (@Axblade) Github page and blog."
 baseurl: ""
 url: "axblade.github.io"
 username: "Eugene Sypachev"
