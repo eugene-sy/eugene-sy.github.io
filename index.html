@@ -1,9 +1,33 @@
 ---
 layout: welcome
-
 ---
 
-<div class="text-center">
-  <img class="circular" src="http://www.gravatar.com/avatar/ea5a0b3fd1086a8d9520c91aef8319d8?s=300" >
-  <p>contact me <a href="mailto:eugene.sypachev@gmail.com">eugene.sypachev (at) gmail.com</a></p>
+<div class="container">
+  <div class="wrap">
+    {% include nav-links.html %}
+
+    <div class="self">
+      <div class="avatar">
+	<img alt="avatar" src="http://www.gravatar.com/avatar/ea5a0b3fd1086a8d9520c91aef8319d8?s=300" >
+      </div>
+
+      <div class="title">
+	<h1 class="title-header">
+	  <a class="header-link" href="/about">Eugene Sypachev @Axblade</a>
+	</h1>
+      </div>
+
+      <div class="description">
+	<p>Passionate software engineer from Saint-Petersburg, Russia</p>
+      </div>
+
+      <div class="social-links">
+	{% include social-links.html %}
+      </div>
+
+      <div class="contact">
+	contact me: <a href="mailto:eugene.sypachev@gmail.com">eugene.sypachev (at) gmail.com</a></p>
+      </div>
+    </div>
+  </div>
 </div>

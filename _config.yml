@@ -1,7 +1,12 @@
+# Styles
+sass:
+  sass_dir: _sass
+  style: :compressed
+
 # Site settings
 title: axblade.github.io
 email: eugene.sypachev@gmail.com
-description: "Axblades (Eugene Sypachev) Github page and blog."
+description: "Eugene Sypachev (@Axblade) Github page and blog."
 baseurl: ""
 url: "axblade.github.io"
 username: "Eugene Sypachev"
@@ -12,10 +17,8 @@ github_username: Axblade
 markdown: kramdown
 permalink: pretty
 
-
 paginate: 5 #articles per page
 paginate_path: /blog/page:num #makes pagination working
-
 
 #contacts
 git: "https://github.com/Axblade"

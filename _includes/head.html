@@ -4,8 +4,7 @@
 
 <link href="//fonts.googleapis.com/css?family=Lato:400,400i|Open+Sans|Raleway" rel="stylesheet">
 
-<link rel="stylesheet" href="{{ "/public/stylesheets/bs.css" | prepend:site.baseurl }}">
-<link rel="stylesheet" href="{{ "/public/stylesheets/styles.css" | prepend:site.baseurl }}">
+<link rel="stylesheet" href="{{ "/css/styles.css" | prepend:site.baseurl }}">
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -13,6 +12,8 @@
 <link rel="icon" type="image/x-icon"  href="{{ "/favicon.ico" | prepend:site.baseurl }}" />
 
 <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.title }}</title>
+
+<meta name="description" content="{{ site.description }}">
 
 <!--[if lt IE 9]>
   <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>

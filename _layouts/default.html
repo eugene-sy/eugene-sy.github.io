@@ -4,15 +4,14 @@
     {% include head.html %}
   </head>
   <body>
-    <div class="wrapper">
-      <section>
-        {% include title.html %}
+      <div class="content-wrap">
+	{% include title.html %}
 
-        {{ content }}
+	{{ content }}
 
-        {% include footer.html %}
-      </section>
-    </div>
+      </div>
+
+      {% include footer.html %}
 
     {% include scripts.html %}
   </body>
