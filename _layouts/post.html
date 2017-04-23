@@ -1,17 +1,18 @@
 ---
 layout: default
 ---
+<div class="container">
+  <div class="wrap">
+    <div class="post">
+      <div class="post-link">
+	<h1>{{ page.title }}</h1>
+      </div>
 
-<div class="wrap">
-  <div class="post">
-    <div class="post-link">
-      <h1>{{ page.title }}</h1>
-    </div>
+      {% include post-meta.html %}
 
-    {% include post-meta.html %}
-
-    <div class="post-content">
-      {{ content }}
+      <div class="post-content">
+	{{ content }}
+      </div>
     </div>
   </div>
 </div>
