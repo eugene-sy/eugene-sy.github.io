@@ -93,10 +93,17 @@ body {
     heigth: 200px;
     text-align: center;
     background: $background-highlight;
+    flex-direction: row;
 
     a {
 	@extend .footer-link;
     }
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
 .footer-link {
@@ -108,9 +115,57 @@ body {
     }
 }
 
-.site-info {
-    margin: 50px;
-    color: $text-alt;
+.general {
+    margin-left: 20px;
+    text-align: left;
+
+    & .site-info {
+	margin-bottom: 50px;
+	color: $text-alt;
+    }
+
+    & .social-links {
+	margin-left: 0;
+    }
+}
+
+.projects {
+    width: 200px;
+    text-align: left;
+
+    .projects-header {
+	color: $text-alt;
+	text-align: left;
+	margin-bottom: 10px;
+    }
+
+    .project-link {
+	@extend .footer-link;
+	font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .footer-wrap {
+	flex-direction: column;
+    }
+
+    .general {
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	margin-bottom: 20px;
+    }
+
+    .projects {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 50px;
+
+	.projects-header {
+	    text-align: center;
+	}
+    }
 }
 
 .posts {
