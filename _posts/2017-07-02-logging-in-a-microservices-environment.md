@@ -25,7 +25,7 @@ Also, transport solution is needed to forward logs from output streams into log 
 
 Another interesting problem is forwarding logs from containers (like [Docker](https://www.docker.com/)) to a storage location. The rule of thumb is to launch only one process in the container. Obviously, the container has to launch the application process and it should not host log forwarding agent. The simplest solution will be to attach log directory of the host machine to the container (I prefer using `/var/log/containers/` directory on a host machine and `/logs/` inside a container). Then the attached file can be read by an agent on host along with others.
 
-It's very important to sync time host machines. NTP server/client setup should be enough if all servers are in the same timezone. Otherwise, servers in different timezones can be grouped in a storage solution. Given that every timezone group has all application parts and requests are served by the facility of one group, it should not be a problem.
+It's very important to sync time on host machines. NTP server/client setup should be enough if all servers are in the same timezone. Otherwise, servers in different timezones can be grouped in a storage solution. Given that every timezone group has all application parts and requests are served by the facility of one group, it should not be a problem.
 
 ## Logging Setup
 
