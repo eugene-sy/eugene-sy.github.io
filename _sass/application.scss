@@ -240,6 +240,12 @@ body {
 	    text-decoration: underline;
 	}
     }
+
+    code {
+	background: #EFEFEF;
+	border-radius: 3px;
+	padding: 0 5px;
+    }
 }
 
 .link-button {
