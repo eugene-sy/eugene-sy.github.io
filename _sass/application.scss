@@ -204,6 +204,7 @@ body {
 
 .preface {
     margin-top: 10px;
+    line-height: 1.2em;
 }
 
 .no-preface {
@@ -238,6 +239,12 @@ body {
 	&:hover, &:active {
 	    text-decoration: underline;
 	}
+    }
+
+    code {
+	background: #EFEFEF;
+	border-radius: 3px;
+	padding: 0 5px;
     }
 }
 
