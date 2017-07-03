@@ -42,3 +42,13 @@ It's still needed to provide several agent input configurations because, sometim
 Another, small but important detail, that can be overlooked is log levels definition. Ideally, it should be consistent, for example, it might be defined implicitly with `ENVIRONMENT` environment variables or explicitly with `LOG_LEVEL`. Values of the variable must be consistent too. It's confusing when some parts of application use numbers as configuration options, other different variants of spelling of words.
 
 ## Development, Debugging and Disaster Recovery
+
+It's not very important to follow this steps while the application is in a development stage, but it can dramatically enhance an experience of operating the application in production.
+
+It's common to have limited logging enabled for applications in production mode, and excesive logging for development. It makes sense because logging affects performance. But, what if you want temporary increase the level of detail for given service? For that case an HTTP endpoint can be built in the application. The other scenario can be followed if the application uses configuration storage solution, like [Zookeeper](https://zookeeper.apache.org/) or [etcd](https://coreos.com/etcd/), the log level setting can be stored there and changed when needed.
+
+With an ability to change log level on the fly, it becomes easier to debug problems in the production envirionment, but the process it still manual. What about automating it? Depending on the solution used for the application and other services in the infrastructure, there are different choices to automate. One will be to set up counters in configuration storage and increased log level can be set when the counter exceeds given number (also configurable). Another approach is to write an application that monitors the behavior of infrastructure and turns on the excessive logging with a number of rules. When established, along with monitoring and alerting system, it becomes a powerful tool to prevent and overcome disasters in the application.
+
+## Conclusion
+
+Logging might seem to be the least important thing compared to business needs and feature requests from the customers. But still, it is very important. And depending on the time, when a company will start to implement it in more correct and robust way the costs of the process will differ dramatically. Start the process as early as you can to save effort and time in future.
