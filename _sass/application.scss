@@ -246,6 +246,11 @@ body {
 	border-radius: 3px;
 	padding: 0 5px;
     }
+
+    ul {
+	list-style: circle inside;
+	margin: 10px;
+    }
 }
 
 .link-button {
