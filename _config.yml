@@ -4,14 +4,14 @@ sass:
   style: :compressed
 
 # Site settings
-title: axblade.github.io
+title: eugene-sy.github.io
 email: eugene.sypachev@gmail.com
-description: "Eugene Sypachev (@Axblade) Github page and blog."
+description: "Eugene Sypachev (@eugene-sy) Github page and blog."
 baseurl: ""
-url: "axblade.github.io"
+url: "eugene-sy.github.io"
 username: "Eugene Sypachev"
 twitter_username: axblade
-github_username: Axblade
+github_username: eugene-sy
 
 # Build settings
 markdown: kramdown
@@ -21,7 +21,7 @@ paginate: 5 #articles per page
 paginate_path: /blog/page:num #makes pagination working
 
 #contacts
-git: "https://github.com/Axblade"
+git: "https://github.com/eugene-sy"
 stackoverflow: "http://stackoverflow.com/users/3205447/axblade"
 twitter: "https://twitter.com/axblade"
 linkedin: "https://www.linkedin.com/pub/eugene-sypachev/50/780/ab2"
@@ -40,6 +40,9 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
 permalink: :title
+
+
+url: "https://eugene-sy.github.io"
 defaults:
   -
     scope:
