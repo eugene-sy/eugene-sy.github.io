@@ -6,10 +6,10 @@ sass:
 # Site settings
 title: eugene-sy.github.io
 email: eugene.sypachev@gmail.com
-description: "Eugene Sypachev (@eugene-sy) Github page and blog."
-baseurl: ""
-url: "eugene-sy.github.io"
-username: "Eugene Sypachev"
+description: 'Eugene Sypachev (@eugene-sy) Github page and blog.'
+baseurl: ''
+url: 'eugene-sy.github.io'
+username: 'Eugene Sypachev'
 twitter_username: axblade
 github_username: eugene-sy
 
@@ -21,13 +21,12 @@ paginate: 5 #articles per page
 paginate_path: /blog/page:num #makes pagination working
 
 #contacts
-git: "https://github.com/eugene-sy"
-stackoverflow: "http://stackoverflow.com/users/3205447/axblade"
-twitter: "https://twitter.com/axblade"
-linkedin: "https://www.linkedin.com/pub/eugene-sypachev/50/780/ab2"
+git: 'https://github.com/eugene-sy'
+stackoverflow: 'http://stackoverflow.com/users/3205447/axblade'
+twitter: 'https://twitter.com/axblade'
+linkedin: 'https://www.linkedin.com/pub/eugene-sypachev/50/780/ab2'
 
-
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
@@ -35,24 +34,19 @@ gems:
 # description: "..."
 
 exclude:
-  - "README.md"
-  - "CHANGELOG.md"
-  - "Gemfile"
-  - "Gemfile.lock"
-permalink: :title
+  - 'README.md'
+  - 'CHANGELOG.md'
+  - 'Gemfile'
+  - 'Gemfile.lock'
 
-
-url: "https://eugene-sy.github.io"
 defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
+  - scope:
+      path: ''
+      type: 'pages'
     values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "posts"
+      layout: 'default'
+  - scope:
+      path: ''
+      type: 'posts'
     values:
-      layout: "post"
+      layout: 'post'

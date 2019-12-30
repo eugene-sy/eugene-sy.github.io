@@ -1,19 +1,31 @@
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<link href="//fonts.googleapis.com/css?family=Lato:400,400i|Open+Sans|Raleway" rel="stylesheet">
+<link
+  href="//fonts.googleapis.com/css?family=Lato:400,400i|Open+Sans|Raleway"
+  rel="stylesheet"
+/>
 
 <link rel="stylesheet" href="{{ "/css/styles.css" | prepend:site.baseurl }}">
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link
+  href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+  rel="stylesheet"
+/>
 
-<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<link
+  rel="canonical"
+  href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
+/>
 
-<link rel="icon" type="image/x-icon"  href="{{ "/favicon.ico" | prepend:site.baseurl }}" />
+<link rel="icon" type="image/x-icon" href="{{ "/favicon.ico" |
+prepend:site.baseurl }}" />
 
-<title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.title }}</title>
+<title>
+  {% if page.title %} {{ page.title }} | {% endif %} {{ site.title }}
+</title>
 
-<meta name="description" content="{{ site.description }}">
+<meta name="description" content="{{ site.description }}" />
 
 <!--[if lt IE 9]>
   <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>

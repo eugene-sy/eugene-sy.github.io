@@ -1,0 +1,22 @@
+{
+  "name": "eugene-sy.github.io",
+  "version": "1.0.0",
+  "description": "Personal Github-page",
+  "scripts": {
+    "fmt": "./node_modules/.bin/prettier --write '**/*.{rb,js,scss,html,yaml}'",
+    "rubocop": "bundle exec rubocop -a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugene-sy/eugene-sy.github.io.git"
+  },
+  "author": "Eugene Sypachev (@eugene-sy)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eugene-sy/eugene-sy.github.io/issues"
+  },
+  "homepage": "https://eugene-sy.github.io",
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}

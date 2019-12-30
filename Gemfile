@@ -1,5 +1,9 @@
-# A sample Gemfile
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem "jekyll", ">= 3.0.0"
-gem "github-pages"
+# A sample Gemfile
+source 'https://rubygems.org'
+
+gem 'github-pages'
+gem 'jekyll', '>= 3.0.0'
+
+gem 'rubocop', group: :development
