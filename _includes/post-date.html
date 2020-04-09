@@ -1,7 +1,0 @@
-{% if post %}
-  {% assign post_date = post.date %}
-{% else %}
-  {% assign post_date = page.date %}
-{% endif %}
-
-<span class="fa fa-clock-o"></span>&nbsp;{{ post_date | date: "%b %-d, %Y" }}
