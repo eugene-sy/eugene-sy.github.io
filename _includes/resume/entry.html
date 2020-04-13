@@ -1,0 +1,16 @@
+<div class='resume__entry'>
+  <h3>
+    {{ include.from }} – {{ include.to }} {{ include.company }} {% if include.link %}(<a href='{{ include.link }}' target='_blank'>{{ include.link_name }}</a>){% endif %}
+  </h3>
+  <p><span>Role:</span> {{ include.role }}</p>
+  <p><span>Responsibilities:</span></p>
+  <ul>
+    {{ include.responsibilities }}
+  </ul>
+  {% if include.projects %}
+  <p><span>Public projects:</span></p>
+  <ul>
+    {{ include.projects }}
+  </ul>
+  {% endif %}
+</div>
