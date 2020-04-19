@@ -334,3 +334,20 @@ body {
     color: $text-secondary;
   }
 }
+
+.resume__heading {
+  display: flex;
+  flex-direction: row;
+
+  .resume__title {
+    flex-grow: 1;
+  }
+
+  .main-title {
+    margin: 0;
+  }
+
+  .secondary-title {
+    color: $text-secondary;
+  }
+}
