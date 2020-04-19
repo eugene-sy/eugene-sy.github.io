@@ -8,9 +8,9 @@ title: eugene-sy.github.io
 email: eugene.sypachev@gmail.com
 description: 'Eugene Sypachev (@eugene-sy) Github page and blog.'
 baseurl: ''
-url: 'eugene-sy.github.io'
+url: 'https://eugene-sy.github.io'
 username: 'Eugene Sypachev'
-twitter_username: axblade
+twitter_username: ESypachev
 github_username: eugene-sy
 
 # Build settings
