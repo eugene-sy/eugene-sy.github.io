@@ -3,6 +3,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: $text-main;
+  height: 100%;
 }
 
 .container {
@@ -12,8 +13,9 @@ body {
 }
 
 .content-wrap {
-  min-height: 100%;
+  height: 100%;
   background: $background;
+  min-height: calc(100vh - #{$footer-height});
 }
 
 .wrap {
@@ -109,10 +111,12 @@ body {
 
 .footer {
   overflow: auto;
-  height: 200px;
+  height: $footer-height;
   text-align: center;
   background: $background-highlight;
   flex-direction: row;
+  width: 100%;
+  position: relative;
 
   a {
     @extend .footer-link;
