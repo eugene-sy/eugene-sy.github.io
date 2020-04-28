@@ -10,7 +10,7 @@ description: 'Eugene Sypachev (@eugene-sy) Github page and blog.'
 baseurl: ''
 url: 'https://eugene-sy.github.io'
 username: 'Eugene Sypachev'
-twitter_username: ESypachev
+# twitter_username: ESypachev
 github_username: eugene-sy
 
 # Build settings
@@ -22,7 +22,7 @@ paginate_path: /blog/page:num #makes pagination working
 
 #contacts
 git: 'https://github.com/eugene-sy'
-stackoverflow: 'http://stackoverflow.com/users/3205447/axblade'
+# stackoverflow: 'http://stackoverflow.com/users/3205447/axblade'
 linkedin: 'https://www.linkedin.com/pub/eugene-sypachev/50/780/ab2'
 
 plugins:

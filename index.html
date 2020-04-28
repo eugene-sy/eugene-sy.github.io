@@ -6,31 +6,28 @@ layout: welcome
   <div class="wrap">
     <div class="self">
       <div class="avatar">
-        <img
-          alt="avatar"
-          src="http://www.gravatar.com/avatar/ea5a0b3fd1086a8d9520c91aef8319d8?s=300"
-        />
+        <img alt="avatar" src="/images/static/photo.jpg"/>
       </div>
 
       <div class="title">
         <h1 class="title-header">
-          <a class="header-link" href="/about">Eugene Sypachev @Axblade</a>
+          <a class="header-link" href="/about">Eugene Sypachev</a>
         </h1>
       </div>
 
       <div class="description">
-        <p>Passionate software engineer from Saint-Petersburg, Russia</p>
+        <p>Passionate entrepreneur-minded software engineer.<br /> Jack of all trades.</p>
+      </div>
+
+      <div class="contact">
+        <h3>Contact me:</h3>
+        <div class="contact-me">
+          {% include contacts.html %}
+        </div>
       </div>
 
       <div class="social-links">
         {% include social-links.html %}
-      </div>
-
-      <div class="contact">
-        contact me:
-        <a href="mailto:eugene.sypachev@gmail.com"
-          >eugene.sypachev (at) gmail.com</a
-        >
       </div>
     </div>
   </div>
