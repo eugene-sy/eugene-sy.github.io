@@ -61,7 +61,16 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .wrap {
+    width: 300px;
+  }
+  
   .self {
-    margin: 25px 15px 0 15px;
+    margin-top: 25px;
+
+    .social-links {
+      margin: 25px auto;
+      text-align: center;
+    }
   }
 }
